@@ -17,7 +17,10 @@
   WIDTH = 300;
 
   HEIGHT = 300;
-
+	//Здесь происходит расчёт
+	/**
+	 * @param event.data {mission}
+	 */
   this.onmessage = function(event) {
     var arrivalTime, deltaV, deltaVCount, deltaVs, departureTime, destinationBody, destinationOrbit, earliestDeparture, error, finalOrbitalVelocity, i, initialOrbitalVelocity, lastProgress, logDeltaV, maxDeltaV, minDeltaV, minDeltaVPoint, n1, now, originBody, originOrbit, originPositions, originVelocities, p1, p2, referenceBody, shortestTimeOfFlight, sumLogDeltaV, sumSqLogDeltaV, timeOfFlight, transfer, transferType, trueAnomaly, v1, v2, x, xResolution, y, yResolution, _i, _j, _k;
 
